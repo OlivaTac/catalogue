@@ -6,6 +6,7 @@ ARG uid=1000
 ARG gid=1000
 
 RUN mkdir /app
+RUN mkdir /images
 COPY . /go/src/github.com/microservices-demo/catalogue/
 COPY images/ /images/
 
